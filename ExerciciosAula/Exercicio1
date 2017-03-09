@@ -1,0 +1,39 @@
+- O que são sistemas embarcados?
+	
+	É um sistema microprocessado no qual o computador é completamente encapsulado ou dedicado ao dispositivo ou sistema que ele controla.Diferentemente de computadores de propósito geral, como o computador pessoal, um sistema embarcado realiza um conjunto de tarefas predefinidas, geralmente com requisitos específicos. Já que o sistema é dedicado a tarefas específicas, através de engenharia pode-se otimizar o projeto reduzindo tamanho, recursos computacionais e custo do produto.
+
+- O que são sistemas microprocessados?
+
+	É um circuito integrado que realiza as funções de cálculo e tomada de decisão de um computador, que geralmente é chamado apenas de Processador. Todos os computadores e equipamentos eletrônicos baseiam-se nele para executar suas funções, podemos dizer que o processador é o cérebro do computador por realizar todas estas funções, é tornar o computador inteligente.
+
+- Apresente aplicações de sistemas embarcados:
+	- para a indústria automotiva;
+		Sistemas de freios
+		Computador de bordo
+		Sistema de GPS e navegação
+		Alarmes
+		Controle de motor transmissão e carroceria
+		Controle de tração
+
+	- para eletrodomésticos;
+		Microondas
+		Maquina de Lavar
+		TV
+		DVD
+		Video Games
+	
+	- para automação industrial;
+		Aumento da produtividade
+		Melhoria de qualidade do produto final
+		Redução dos custos
+
+- Cite arquiteturas possíveis e as diferenças entre elas
+
+Arquitetura ARM, é uma arquitetura de processador de 32 bits usada principalmente em sistemas embarcados. São processadores que visam a simplificação das instruções, com o intuito de atingir a máxima eficiência por ciclo, podendo realizar tarefas menores com ciclos mais curtos, e uma maior ordenação das operações dentro do núcleo de processamento. Muito usada na indústria e na informática, seu desenvolvimento se deu visando obter o melhor desempenho possível, com a limitação de ser simples, ocupar pouca área e ter baixo consumo de energia.
+
+A Arquitetura de Von Neumann, é uma arquitetura de computador que se caracteriza pela possibilidade de uma máquina digital armazenar seus programas no mesmo espaço de memória que os dados, podendo assim manipular tais programas. Esta arquitetura é um projeto modelo de um computador digital de programa armazenado que utiliza uma unidade de processamento (CPU) e uma de armazenamento ("memória") para comportar, respectivamente, instruções e dados.
+
+
+- Por que usamos o MSP430 na disciplina, ao invés do outro microcontrolador?
+
+É um processador de 16 bits, baseado na Arquitetura de Von Neumann. Ele permite aritmética diretamente com valores da memória. Uma CPU pequena e eficiente com muitos registradores. Possui vários modos de baixo consumo, é colocado facilmente em modo de baixo consumo, atráves de bits no registrador de estado. Possui várias opções de clocks; cristal de 32 KHz,DCO e cristal externo. Vários periféricos, sendo que alguns podem funcionar sem a CPU. Alguns MSP430 possuem hardward analógico para aplicações específicas.
