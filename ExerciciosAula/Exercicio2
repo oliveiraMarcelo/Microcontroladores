@@ -8,7 +8,7 @@ Q2. Quais são as diferenças entre as memórias RAM e ROM?
 
 As memórias ROM (Read-Only Memory) recebem esse nome porque os dados são gravados nelas apenas uma vez. Depois disso, essas informações não podem ser apagadas ou alteradas, apenas lidas pelo computador, exceto por meio de procedimentos especiais. Outra característica das memórias ROM é que elas são do tipo não voláteis, isto é, os dados gravados não são perdidos na ausência de energia elétrica ao dispositivo. Eis os principais tipos de memória ROM: PROM, EDPROM, EEPDROM, EAROM, Flash.
 
-As memórias RAM (Random-Access Memory) constituem uma das partes mais importantes dos computadores, pois são nelas que o processador armazena os dados com os quais está lidando. Esse tipo de memória tem um processo de gravação de dados extremamente rápido, se comparado aos vários tipos de memória ROM. No entanto, as informações gravadas se perdem quando não há mais energia elétrica, isto é, quando o computador é desligado, sendo, portanto, um tipo de memória volátil. 
+As memórias RAM (Random-Access Memory) constituem uma das partes mais importantes dos computadores, pois são nelas que o processador armazena os dados com os quais está lidando. Esse tipo de memória tem um processo de gravação de dados extremamente rápido, se comparado aos vários tipos de memória ROM. No entanto, as informações gravadas se perdem quando não há mais energia elétrica, isto é, quando o computador é desligado, sendo, portanto, um tipo de memória volátil.
 Há dois tipos de tecnologia de memória RAM que são muitos utilizados: estático e dinâmico, isto é, SRAM e DRAM, respectivamente.
 
 	-SRAM (Static Random-Access Memory - RAM Estática): esse tipo é muito mais rápido que as memórias DRAM, porém armazena menos dados e possui preço elevado se considerarmos o custo por megabyte. Memórias SRAM costumam ser utilizadas como cache.
@@ -32,12 +32,19 @@ Q3. Considere o código abaixo, de 12 linhas:
 
 Para este código, responda:
 	(a) A variável 'i' é armazenada na memória RAM ou ROM? Por quê?
+
+		Memória RAM, pois o 'i' é armazenado apenas durante a execução, e quando a execução é encerrado o valor armazenado some.
+
 	(b) O programa compilado a partir deste código é armazenado na memória RAM ou ROM? Por quê?
+
+		Memória ROM, como a memória ROM é uma memória de gravação, então o codigo compilado fica salvo nela para ser acessada sempre que desejavel.
 
 Q4. Quais são as diferenças, vantagens e desvantagens das arquiteturas Harvard e Von Neumann?
 
+
 Q5. Considere a variável inteira 'i', armazenando o valor 0x8051ABCD. Se 'i' é armazenada na memória a partir do endereço 0x0200, como ficam este byte e os seguintes, considerando que a memória é:
 	(a) Little-endian?
+
 	(b) Big-endian?
 
 Q6. Sabendo que o processador do MSP430 tem registradores de 16 bits, como ele soma duas variáveis de 32 bits?
