@@ -1,0 +1,31 @@
+#Codigo C
+
+void Fibonacci(int A[], int N)
+{
+	int i;
+	A[0] = 0;
+	A[1] = 1;
+	for(i=2;i<N;i++){
+		A[1] = A[i-1]+A[1-2];
+	}
+}
+
+#Codigo Assembly
+
+Fibonacci: clr 0(R15)
+		mov #1.2(R15)
+		mov #2,R13
+
+FOR_FIBO: cmp R14,R13 
+		jge FOR_FIBO_END
+		mov R13,R12
+		sub #2,R12
+		add R12,R12
+		rla R12
+		add R15,R12
+		mov 0(R12),4(R12)
+		add 2(R12),4(R12)
+		inc R15
+		jmp FOR_FIBO
+		ret
+		

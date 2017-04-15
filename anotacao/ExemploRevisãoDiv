@@ -1,0 +1,29 @@
+#Codigo C
+
+unsigned int Mult_Unsigned2(unsigned int a, unsigned int b){
+	unsigned int i, c=0;
+
+	for(i=0; a >= b, i++){
+
+		a - = b;
+
+		return i;
+	}
+
+}
+
+#Codigo Assembly
+
+Div_unsigned : 
+	clr R13;	
+	mov #1,R12				
+
+FOR_Div: cmp R14,R15
+
+	Jl END_FOR_Div
+	sub R14,R15
+	inc R13
+	jmp FOR_Div
+
+END_FOR_Div: mov R13,R15 
+	ret
